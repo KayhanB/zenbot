@@ -54,7 +54,7 @@ module.exports = function api () {
       res.sendFile(path.join(__dirname+'../../../stats/index.html'))
     })
 
-    if (ip && ip !== '0.0.0.0') {
+    if (ip) {
       app.listen(port, ip)
       tradeObject.url = ip + ':' + port + '/'
     } else {

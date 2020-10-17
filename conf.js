@@ -278,5 +278,5 @@ c.output = {}
 // REST API
 c.output.api = {}
 c.output.api.on = process.env.ZENBOT_API_ENABLE || true
-c.output.api.ip = process.env.ZENBOT_API_IP || 'localhost' // IPv4 or IPv6 address to listen on, uses all available interfaces if omitted
+c.output.api.ip = process.env.ZENBOT_API_IP || '0.0.0.0' // IPv4 or IPv6 address to listen on, uses all available interfaces if omitted
 c.output.api.port = process.env.PORT || 17365

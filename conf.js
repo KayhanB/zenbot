@@ -17,7 +17,7 @@ c.mongo.replicaSet = process.env.ZENBOT_MONGO_REPLICASET || null
 c.mongo.authMechanism = process.env.ZENBOT_MONGO_AUTH_MECHANISM || null
 
 // default selector. only used if omitting [selector] argument from a command.
-c.selector = process.env.ZENBOT_DEFAULT_SELECTOR || 'gdax.BTC-USD'
+c.selector = process.env.ZENBOT_DEFAULT_SELECTOR || 'binance.BTC-USDT'
 // name of default trade strategy
 c.strategy = process.env.ZENBOT_DEFAULT_STRATEGY || 'trend_ema'
 

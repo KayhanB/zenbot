@@ -13,7 +13,7 @@
     "zenbot": "./zenbot.sh"
   },
   "scripts": {
-    "start":"./zenbot.sh sim",
+    "start": "./zenbot.sh trade --paper",
     "lint": "eslint **/*.js",
     "lint-fix": "eslint **/*.js --fix",
     "precommit": "lint-staged",
